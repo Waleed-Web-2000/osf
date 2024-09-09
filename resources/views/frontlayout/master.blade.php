@@ -68,7 +68,7 @@
 		<div class="col-md-4 col-lg-4 col-md-12 px-0">
 			<div class="row dz-post g-0 spno">
 				@php
-		           $fd=DB::table('category')->limit(4)->get();     
+		           $fd=DB::table('Category')->limit(4)->get();     
 		        @endphp
 				@forelse ( $fd as $data )
 				<div class="col-lg-6 col-6">
