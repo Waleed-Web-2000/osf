@@ -11,7 +11,7 @@
                                 $data=DB::table('settings')->first();
                                 
                         @endphp
-						<img src="/uploads/setting/logo/{{$data->logo}}" alt="">
+						<img src="/uploads/setting/logo/{{$data->photo}}" alt="">
 					</div>
 					
 					<!-- Nav Toggle Button -->
