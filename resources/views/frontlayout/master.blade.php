@@ -106,7 +106,7 @@
 								@php
 		                           $data=DB::table('settings')->first();     
 		                        @endphp
-								<a href="/"><img src="/uploads/setting/logo/{{$data->logo}}" alt=""></a> 
+								<a href="/"><img src="/uploads/setting/logo/{{$data->photo}}" alt=""></a> 
 							</div>	
 						</div>
 						<div class="col-12 col-sm-6">
